@@ -18,6 +18,7 @@ import {
   FaBars,
   FaTimes
 } from 'react-icons/fa'
+import logo from './assets/logo.jpeg'
 import './App.css'
 
 function App() {
@@ -119,7 +120,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            <img src="/aanaron/logo.jpeg" alt="Aaronald Logo" className="nav-logo-image" />
+            <img src={logo} alt="Aaronald Logo" className="nav-logo-image" />
             <span className="nav-logo-text">AARONALD</span>
           </div>
           <div className="nav-links">
@@ -161,7 +162,7 @@ function App() {
           <div className="hero-top">
             <div className="logo-container">
               <div className="logo-box">
-                <img src="/aanaron/logo.jpeg" alt="Aaronald Logo" className="hero-logo-image" />
+                <img src={logo} alt="Aaronald Logo" className="hero-logo-image" />
               </div>
             </div>
             <div className="company-info">
