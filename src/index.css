@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-blue: #0033A0;
+  --secondary-blue: #4A90E2;
+  --accent-red: #E31E24;
+  --dark-blue: #001F5C;
+  --light-blue: #F0F7FF;
+  --white: #FFFFFF;
+  --gray: #F5F5F5;
+  --text-dark: #333333;
+  --text-light: #666666;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
