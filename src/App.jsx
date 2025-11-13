@@ -48,6 +48,11 @@ function App() {
       image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
       title: "Customized Homes",
       description: "Your dream home built exactly as you envision"
+    },
+     {
+      image: "https://acropolis-wp-content-uploads.s3.us-west-1.amazonaws.com/types-of-infrastructure-projects.webp-1.webp?w=800&q=80",
+      title: "Infrastructure Projects",
+      description: "Robust and sustainable infrastructure solutions for communities"
     }
   ]
 
@@ -65,7 +70,7 @@ function App() {
     {
       icon: <FaAward />,
       title: "Quality Guaranteed",
-      description: "Structural warranty: 12 years | Composite warranty: 5 years"
+      description: " 12 warranty on residential Projects and customized warranty on infrastructure projects"
     },
     {
       icon: <FaUsers />,
@@ -178,35 +183,7 @@ function App() {
             <p className="motto-subtitle">Transforming visions into architectural excellence</p>
           </div>
 
-          <div className="hero-stats">
-            <div className="stat-item">
-              <div className="stat-icon">
-                <FaCertificate />
-              </div>
-              <div className="stat-content">
-                <h3>ISO Certified</h3>
-                <p>Quality Standards</p>
-              </div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-icon">
-                <FaAward />
-              </div>
-              <div className="stat-content">
-                <h3>20+ Years</h3>
-                <p>Experience</p>
-              </div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-icon">
-                <FaCheckCircle />
-              </div>
-              <div className="stat-content">
-                <h3>12 Years</h3>
-                <p>Warranty</p>
-              </div>
-            </div>
-          </div>
+       
 
           <div className="hero-cta">
             <a href="tel:9652509327" className="hero-button primary">Get Started</a>
@@ -271,42 +248,67 @@ function App() {
               <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Luxury Villa Project" />
               <div className="gallery-overlay">
                 <h3>Luxury Villa</h3>
-                <p>Hyderabad</p>
+           
               </div>
             </div>
             <div className="gallery-item">
               <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80" alt="Modern Apartment Complex" />
               <div className="gallery-overlay">
-                <h3>Modern Apartments</h3>
-                <p>Shamshabad</p>
+                <h3>Custom Home</h3>
+            
               </div>
             </div>
             <div className="gallery-item">
               <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80" alt="Custom Home Design" />
               <div className="gallery-overlay">
-                <h3>Custom Home</h3>
-                <p>Telangana</p>
+              
+                <h3>Modern Apartments</h3>
+            
               </div>
             </div>
             <div className="gallery-item">
               <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80" alt="Residential Complex" />
               <div className="gallery-overlay">
                 <h3>Residential Complex</h3>
-                <p>Hyderabad</p>
+           
               </div>
             </div>
             <div className="gallery-item">
               <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80" alt="Contemporary Villa" />
               <div className="gallery-overlay">
                 <h3>Contemporary Villa</h3>
-                <p>Velankanni Nagar</p>
+         
               </div>
             </div>
             <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80" alt="Premium Apartments" />
+              
+              <img src="https://amanora.com/wp-content/uploads/2025/06/Duplex_Flats__1_.png?w=800&q=80" alt="Premium Apartments" />
               <div className="gallery-overlay">
-                <h3>Premium Apartments</h3>
-                <p>Hyderabad</p>
+                <h3> Duplex Apartment</h3>
+                
+           
+              </div>
+            </div>
+
+             <div className="gallery-item">
+              <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202505/india-highway-corridors-024743250-16x9_0.jpg?VersionId=kZGrRalMhSL5z6CeduuxkEIojO4zlZsu&size=690:388?w=800&q=80" alt="Contemporary Villa" />
+              <div className="gallery-overlay">
+                <h3>Highway Infrastructure</h3>
+         
+              </div>
+            </div>
+             <div className="gallery-item">
+              <img src="https://www.urbancgi.com/wp-content/uploads/2023/05/railway-planning-infrastructure.jpg?w=800&q=80" alt="Contemporary Villa" />
+              <div className="gallery-overlay">
+                <h3>Railway Infrastructure</h3>
+         
+              </div>
+            </div>
+             <div className="gallery-item">
+              <img src="https://static.vecteezy.com/system/resources/thumbnails/050/681/689/small/airplane-preparing-for-takeoff-on-a-clear-runway-during-daylight-at-a-busy-international-airport-photo.jpg?w=800&q=80" alt="Contemporary Villa" />
+              <div className="gallery-overlay">
+                <h3>Airport Infrastructure</h3>
+         
               </div>
             </div>
           </div>
@@ -367,6 +369,7 @@ function App() {
           </div>
         </div>
       </section>
+
 
       {/* Footer */}
       <footer className="footer">
