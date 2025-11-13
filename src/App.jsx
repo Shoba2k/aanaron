@@ -97,6 +97,7 @@ function App() {
       title: "Regular Updates",
       description: "Stay informed with consistent project updates"
     },
+       
     {
       icon: <FaFileContract />,
       title: "Clear Contracts",
