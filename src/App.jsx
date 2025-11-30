@@ -53,13 +53,18 @@ function App() {
       image: "https://acropolis-wp-content-uploads.s3.us-west-1.amazonaws.com/types-of-infrastructure-projects.webp-1.webp?w=800&q=80",
       title: "Infrastructure Projects",
       description: "Robust and sustainable infrastructure solutions for communities"
+    },
+     {
+      image: "https://bsmedia.business-standard.com/_media/bs/img/article/2023-08/16/full/1692177686-6458.jpg?w=800&q=80",
+      title: "Commercial Projects",
+      description: "Commercial projects that drive business growth and efficiency"
     }
   ]
 
   const features = [
     {
       icon: <FaCertificate />,
-      title: "ISO Certified Company",
+      title: "ISO 9001:2015 Certified Company",
       description: "Quality assurance through international standards"
     },
     {
@@ -70,7 +75,7 @@ function App() {
     {
       icon: <FaAward />,
       title: "Quality Guaranteed",
-      description: " 12 warranty on residential Projects and customized warranty on infrastructure projects"
+      description: " 12 yrs warranty on residential Projects and customized warranty on infrastructure projects"
     },
     {
       icon: <FaUsers />,
@@ -248,7 +253,7 @@ function App() {
             <div className="gallery-item">
               <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Luxury Villa Project" />
               <div className="gallery-overlay">
-                <h3>Luxury Villa</h3>
+                <h3>Interior Design</h3>
            
               </div>
             </div>
@@ -268,9 +273,9 @@ function App() {
               </div>
             </div>
             <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80" alt="Residential Complex" />
+              <img src="https://cdn.corporatefinanceinstitute.com/assets/commercial-real-estate.jpeg?w=800&q=80" alt="Residential Complex" />
               <div className="gallery-overlay">
-                <h3>Residential Complex</h3>
+                <h3>Commercial Complex</h3>
            
               </div>
             </div>
@@ -384,3 +389,4 @@ function App() {
 }
 
 export default App
+//https://bsmedia.business-standard.com/_media/bs/img/article/2023-08/16/full/1692177686-6458.jpg
